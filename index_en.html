@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Sarra MSELLEK</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            margin: 40px;
+            background-color: #f9f9f9;
+        }
+        h1, h2, h3 {
+            font-family: 'Georgia', serif;
+            color: #333;
+            border-bottom: 2px solid #6a1b9a;
+            padding-bottom: 5px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 5px;
+        }
+        h2 {
+            font-size: 1.75em;
+        }
+        h3 {
+            font-size: 1.5em;
+        }
+        .header, .content-section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+        }
+        .contact-info, .skills-list, .languages-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .contact-info li, .skills-list li, .languages-list li {
+            margin-bottom: 8px;
+        }
+        p, ul li {
+            font-size: 1.1em;
+            line-height: 1.5em;
+        }
+        blockquote {
+            font-style: italic;
+            color: #555;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f1f1f1;
+            border-left: 4px solid #6a1b9a;
+        }
+        a {
+            color: #6a1b9a;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .experience-item ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Sarra MSELLEK</h1>
+        <h2>Senior Data Engineer</h2>
+        <ul class="contact-info">
+            <li><strong>Address:</strong> Paris, 13th arrondissement</li>
+            <li><strong>Mobile:</strong> +33 (0)7 81 99 41 34</li>
+            <li><strong>Email:</strong> <a href="mailto:sarramsellek@gmail.com">sarramsellek@gmail.com</a></li>
+        </ul>
+        <blockquote>
+            With over 7 years of experience in Data Engineering, I have designed and implemented scalable data solutions, specializing in optimizing data pipelines and ensuring data integrity. I have led complex projects at Natixis, BPCE, and Fnac Darty, leveraging my expertise in distributed computing frameworks like Hadoop, Spark, and Apache Kafka. I am proficient in Python, Scala, and other programming languages, and I possess a deep understanding of the Hadoop ecosystem and the Google Cloud Platform. I excel at collaborating with teams to drive project success in agile environments. Currently seeking full-time roles as a Data Engineer or Tech Lead in Data Engineering.
+        </blockquote>
+    </div>
+
+    <div class="content-section">
+        <h2>Experience</h2>
+        <div class="experience-item">
+            <h3>Fnac Darty</h3>
+            <p><strong>Data Engineer GCP</strong> (2023 - 2024)</p>
+            <ul>
+                <li>Migrated projects from an unstructured environment to an organized VPC architecture, strengthening security and establishing strict naming conventions;</li>
+                <li>Migrated Bash scripts running via crontab on VMs to Airflow Dags, significantly improving the efficiency and reliability of processes;</li>
+                <li>Refactored existing code on VMs to enhance operational efficiency, replace outdated systems, and optimize operational continuity;</li>
+                <li>Constructed and optimized Looker Studio dashboards to monitor data quality indicators, reducing excessive memory usage and billing costs through BigQuery table clustering and splitting;</li>
+                <li>Managed multi-iteration project migrations, handling the CI/CD pipeline with GitLab and using Terraform for resource creation. Replaced non-modular and undocumented code, updating outdated Python versions to improve performance and maintainability;</li>
+                <li>Addressed business-related tickets, notably optimizing recommendation algorithms and providing quick solutions to technical challenges raised by business teams;</li>
+                <li>Trained the Web Analytics teams on using BigQuery to improve data analysis and decision-making;</li>
+                <li>Technical stack: Beam, Dataflow, Airflow, Python, Bash, BigQuery, GCS, Looker Studio, Kafka, Pub/Sub, Cloud Functions, GitLab, Terraform.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <h3>NATIXIS and BPCE</h3>
+            <p><strong>Data Engineer / Owner and Tech Lead of the Streaming Factory</strong> (2017 - 2023)</p>
+            <ul>
+                <li>Contributed to the development of data ingestion tools, covering ingestion into Hive, enriching raw data, and exposing it to various use cases;</li>
+                <li>Applied data governance rules by integrating Apache Atlas within the ingestion tooling, leveraging the Spark engine;</li>
+                <li>Trained and supported business teams to ensure optimal use of the tool;</li>
+                <li>Collaborated with Hadoop Admin teams to define the data lake ingestion processes;</li>
+                <li>Developed processes to improve Spark and Hive partitioning, reducing HDFS block sizes;</li>
+                <li>Optimized and tuned Spark to improve performance;</li>
+                <li>Conducted tests in the GCP environment for various use cases using services like BigQuery, Dataproc, and Pub/Sub;</li>
+                <li>Technical stack: NIFI, Kafka, Java, Python, SQL, Solr, GCP, Shell, Hive.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <h3>Groupe BPCE Transverse</h3>
+            <p><strong>Streaming Factory Owner Paris / Data Engineering</strong> (2022 - 2023)</p>
+            <ul>
+                <li>Established the factory and carried out the first POCs:</li>
+                <ul>
+                    <li>Coordinated and organized interviews for hiring expert Kafka Data Engineers in Porto, Portugal;</li>
+                    <li>Collaborated with Kafka experts to gain insights into the EDA architecture of the BPCE group and delivered the first POC for a strategic program in the Finance IT department;</li>
+                    <li>Implemented and demonstrated the capability to connect Kafka Confluent to Apache Nifi and index AVRO documents in SOLR;</li>
+                    <li>Automated and deployed Nifi flows via the NIFI-registry;</li>
+                    <li>Delivered a POC proving the feasibility of connecting on-premise Kafka with GCP's Pub/Sub to ensure data archiving;</li>
+                    <li>Conducted a POC demonstrating the ability to archive AVRO documents in HIVE via NIFI;</li>
+                </ul>
+                <li>Technical stack: NIFI, Kafka, Java, Python, SQL, Solr, GCP, Shell, Hive.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <h3>Groupe BPCE Referential, Financing, and Trade Team</h3>
+            <p><strong>Data Engineer / Tech Lead</strong> (2021 - 2022)</p>
+            <ul>
+                <li>Supported business teams in delivering complete projects on the Hadoop platform, from initial design to implementation:</li>
+                <ul>
+                    <li>Developed PySpark scripts to analyze nested XML files and store relevant data in Hive tables within a specific time window;</li>
+                    <li>Designed a binary document extraction solution in streaming;</li>
+                    <li>Designed, developed, and implemented the data lake feeding for the BPCE Referential team;</li>
+                </ul>
+                <li>Technical stack: CDP, Hive, Spark, Kafka (Python library), Spark Streaming, Shell, PySpark, Scala, CI/CD (XLDeploy, Jenkins, Control-M), Git.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <h3>Groupe BPCE, Life Insurance</h3>
+            <p><strong>Data Engineer / Tech Lead</strong> (2020)</p>
+            <ul>
+                <li>Industrialized data science models:</li>
+                <ul>
+                    <li>Supported data scientists in industrializing data science models developed to calculate the credit scoring of life insurance customers;</li>
+                    <li>Actively participated in workshops aimed at establishing shared recommendations across the BPCE group to facilitate industrialization and exploitation of models from data experimentation projects;</li>
+                    <li>Developed Python and Bash processes for the first manual deployment;</li>
+                    <li>Assisted data scientists in rewriting code and applying best practices (versioning, logging, dynamic inputs, packaging, sharing notebooks);</li>
+                </ul>
+                <li>Technical stack: Jupyter, Python, PySpark, Git, CookieHere is the continuation and completion of the English translation for your CV in HTML:
+
+```html
+                    <li>Assisted data scientists in rewriting code and applying best practices (versioning, logging, dynamic inputs, packaging, sharing notebooks);</li>
+                </ul>
+                <li>Technical stack: Jupyter, Python, PySpark, Git, Cookie Cutter, Pandas, PySpark, Artifactory.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <h3>Trade and Treasury Team</h3>
+            <p><strong>Data Engineer</strong> (2020)</p>
+            <ul>
+                <li>Supported and developed necessary tools for data transfer to HDFS, Hive table feeding, and production deployment of scoring and profiling algorithms for a fraud prevention project;</li>
+                <li>Technical stack: Python, PySpark, Git, CI/CD, HDP, Hive, HDFS, Shell, Jira.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="content-section">
+        <h2>Certifications</h2>
+        <div class="certification-item">
+            <p><strong>Google Cloud Certified Professional Data Engineer</strong> (2023)</p>
+        </div>
+    </div>
+
+    <div class="content-section">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li><strong>Programming Languages:</strong> C/C++, Python, Scala, Bash, Java, Ruby</li>
+            <li><strong>Google Cloud Platform:</strong> Airflow, Compute Engine, Vertex AI, BigQuery, Pub/Sub</li>
+            <li><strong>Big Data:</strong> PySpark, HDP/CDP, Spark, Hive, Solr, Kafka, NIFI</li>
+            <li><strong>Automation & CI/CD:</strong> Git, GitLab, Terraform, Jenkins, Docker</li>
+            <li><strong>Databases:</strong> MySQL, SQL Server</li>
+        </ul>
+    </div>
+
+    <div class="content-section">
+        <h2>Languages</h2>
+        <ul class="languages-list">
+            <li>French - Native</li>
+            <li>English - Professional</li>
+            <li>Arabic - Native</li>
+        </ul>
+    </div>
+
+    <div class="content-section">
+        <h2>Interests</h2>
+        <p>Yoga, CrossFit, History, Volunteering, Travel, Passionate about continuous learning and exploring new knowledge across various domains.</p>
+    </div>
+
+</body>
+</html>
